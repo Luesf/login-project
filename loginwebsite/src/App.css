@@ -1,0 +1,9 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background: 
+    radial-gradient(ellipse at top, #624E88, #8967B3, #CB80AB);
+  height: 100vh;
+}

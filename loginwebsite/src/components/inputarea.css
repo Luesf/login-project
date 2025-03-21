@@ -1,0 +1,51 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 70%;
+    padding: 15px;
+}
+
+.box h1 {
+    text-align: center;
+    color: gainsboro;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.input-container {
+    display: block;
+}
+
+.input-container p {
+    text-align: center;
+    font-size: 14px;
+    color: darkred;
+    margin-top: 10px;
+}
+
+.emailInput {
+    margin-bottom: 10px;
+}
+
+.passwordInput {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.button-container p {
+    margin: 0;
+    align-self: center;
+    color: gainsboro;
+    font-size: 14px;
+}
