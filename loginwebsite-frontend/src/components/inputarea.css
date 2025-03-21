@@ -49,3 +49,15 @@
     color: gainsboro;
     font-size: 14px;
 }
+
+@media (min-width: 768px) {
+    .box {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 20%;
+    }
+}

@@ -33,8 +33,8 @@ function InputArea() {
                 <h1>{newUser ? "Register user" : "Login"}</h1>
                 <div className="input-container">
                     <Input className="emailInput" placeholder={newUser ? "New email..." : "Email..."} value={email} onChange={(e) => setEmail(e.target.value)} variant="soft" size="sm"/>
-                    <Input className= "passwordInput" placeholder={newUser ? "New password..." : "Password..."} value={password} onChange={(e) => setPassword(e.target.value)} variant="soft" size="sm"/>
-                    {newUser && <Input className= "passwordConfirm" placeholder="Confirm new password..." value={confirmPass} onChange={(e) => setConfirmPass(e.target.value)} variant="soft" size="sm" />}
+                    <Input className= "passwordInput" type="password" placeholder={newUser ? "New password..." : "Password..."} value={password} onChange={(e) => setPassword(e.target.value)} variant="soft" size="sm"/>
+                    {newUser && <Input className= "passwordConfirm" type="password" placeholder="Confirm new password..." value={confirmPass} onChange={(e) => setConfirmPass(e.target.value)} variant="soft" size="sm" />}
                     {submitError && <p>Error adding user.</p>}
                 </div>
                 <div className="button-container">
